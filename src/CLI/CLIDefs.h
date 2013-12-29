@@ -16,8 +16,8 @@
 std::string CLI_COMMAND[] = {
 		"show version",
 		"show commands",
-		"show status",
 		"?",
+		"show status",
 		"show stats",
 		"show stats rt",
 		"new flow",
@@ -28,8 +28,8 @@ std::string CLI_COMMAND[] = {
 std::string CLI_COMMAND_HELP[] = {
 		"Display version of software",
 		"Display this output",
-		"Display status of system components",
 		"Display this output",
+		"Display status of system components",
 		"Display current stats",
 		"Display stats in realtime",
 		"Create a new packet flow",
