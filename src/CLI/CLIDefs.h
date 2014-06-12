@@ -7,12 +7,12 @@
 #include <string>
 #include <stdio.h>
 #include <stdlib.h>
-#include "Assert/Assert.h"
-#include "IO/PrintStream.h"
-#include "PerfMon/PerfMon.h"
-#include "PMCore/PacketFlowMgr.h"
-#include "Logging/Logging.h"
-#include "RandGen/RandGen.h"
+#include "../Assert/Assert.h"
+#include "../IO/PrintStream.h"
+#include "../PerfMon/PerfMon.h"
+#include "../PMCore/PacketFlowMgr.h"
+#include "../Logging/Logging.h"
+#include "../RandGen/RandGen.h"
 std::string CLI_COMMAND[] = {
 		"show version",
 		"show commands",
@@ -95,7 +95,7 @@ void cli_show_stats()
 	out+=buf;
 	sprintf(buf,"  %-20s %-20.2f %s\r\n","Bandwidth",PMCore::PerfMon::Instance()->getKBPS(),"kBps");
 	out+=buf;
-	PrintStream::Instance()->print(out.c_str());
+	PrintStream::Instance()->print(out.c_str());*/
 }
 void cli_show_stats_realtime()
 {

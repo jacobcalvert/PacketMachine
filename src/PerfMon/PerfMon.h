@@ -8,7 +8,7 @@
 #define PERFMON
 #include <stdint.h>
 #include <vector>
-#include "Thread/Thread.h"
+#include "../Thread/Thread.h"
 namespace PMCore
 {
 	class PerfMon;

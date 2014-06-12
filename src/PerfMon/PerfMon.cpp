@@ -3,8 +3,8 @@
  */
 #include <unistd.h>
 #include "PerfMon.h"
-#include "IO/PrintStream.h"
-#include "Logging/Logging.h"
+#include "../IO/PrintStream.h"
+#include "../Logging/Logging.h"
 #include <ctime>
 namespace PMCore
 {

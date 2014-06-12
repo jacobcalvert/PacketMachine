@@ -2,8 +2,8 @@
  * File: PMCore.cpp, implements most of PMCore
  */
 #include "PacketFlow.h"
-#include "PerfMon/PerfMon.h"
-#include "Logging/Logging.h"
+#include "../PerfMon/PerfMon.h"
+#include "../Logging/Logging.h"
 #include "boost/asio.hpp"
 #include <string>
 namespace PMCore
