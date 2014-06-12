@@ -5,7 +5,7 @@
  * Rev: 1.0
  */
 #include <string>
-#include "Thread/Thread.h"
+#include "../Thread/Thread.h"
 #include "boost/asio.hpp"
 #ifndef PACKETFLOW_H
 #define PACKETFLOW_H

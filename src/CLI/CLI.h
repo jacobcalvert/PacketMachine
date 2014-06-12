@@ -17,9 +17,9 @@ public:
 private:
 	CLI();
 	CLI(CLI const&){/* do not implement */};
-	CLI& operator=(CLI const&){/* do not implement */};
 	static CLI* m_Instance;
 	void process(std::string line);
 	void doWork();
+
 };
 #endif
